@@ -1,0 +1,315 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+}
+body{
+    background-color:#004D40;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    color: #A7FFEB;
+}
+header button{
+   display: none;
+}
+header h1{
+    color: #0bad9b;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    padding-right: 30px;
+    font-weight: lighter;
+    cursor: pointer;
+    font-size: x-large;
+    color: #A7FFEB;
+}
+header ul li:hover{
+    color: #0bad9b;
+    transform: scale(1);
+    transition:ease-in-out;
+    border-bottom: 1px solid rgb(69, 198, 202);
+}
+
+.main h1{
+    text-align: center;
+    margin-top: 30px;
+    color: #0bad9b;
+    
+}
+.services{
+    display: flex;
+    margin-top: 50px;
+    
+}
+ .web{
+    width: fit-content;
+    padding: 20px;
+    border: 2px solid #0bad9b;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+ }
+ .web:hover{
+    animation-name: web;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+ }
+ @keyframes web {
+    from{transform: scale(0.9);}
+ }
+ .web p{
+    text-align: center;
+    color: #0bad9b;
+ }
+ .web button{
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #004D40;
+    font-weight: bold;
+ }
+.web h1{
+font-size: 20px;
+font-weight: lighter;
+color: #A7FFEB;
+margin-bottom: 20px;
+}
+
+
+.app{
+    width: fit-content;
+    padding: 10px;
+    border: 2px solid #0bad9b;
+    border-radius: 20px;
+    
+ }
+ .app:hover{
+    animation-name: web;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+ }
+ .app p{
+    text-align: center;
+    color: #0bad9b;
+ }
+ .app button{
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color:#004D40;
+    font-weight: bold;
+ }
+.app h1{
+font-size: 20px;
+font-weight: lighter;
+color: #A7FFEB;
+margin-bottom: 20px;
+}
+
+
+.graphics{
+    width: fit-content;
+    padding: 10px;
+    border: 2px solid #0bad9b;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ .graphics:hover{
+    animation-name: web;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+ }
+ .graphics p{
+    text-align: center;
+    color: #0bad9b;
+ }
+ .graphics button{
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #004D40;
+    font-weight: bold;
+ }
+.graphics h1{
+font-size: 20px;
+font-weight: lighter;
+color: #A7FFEB;
+margin-bottom: 20px;
+}
+@media (max-width: 360px) {
+   
+   header{
+      display: flex;
+      justify-content: space-between;
+      padding: 0px;
+      width: 100%;
+      background-color: #004D40;
+      border-bottom:2px solid  #1de9b6;
+      color: #A7FFEB;
+      z-index: 10;
+      position: fixed;
+  }
+header button{
+  display: block;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+header h1{
+   color: #0bad9b;
+   padding: 10px;
+   font-size: 30px;
+}
+header ul{
+   display: flex;
+   flex-direction: column;
+   display: none;
+}
+header ul li{
+   padding-right: 30px;
+   font-weight: lighter;
+   cursor: pointer;
+   font-size: x-large;
+   color: #A7FFEB;
+}
+header ul li:hover{
+   color: #0bad9b;
+   transform: scale(1);
+   transition:ease-in-out;
+   border-bottom: 1px solid rgb(69, 198, 202);
+}
+
+.main h1{
+   text-align: center;
+   margin-top: 30px;
+   color: #0bad9b;
+   
+}
+.services{
+   display: flex;
+   margin-top: 180px;
+   flex-direction: column;
+}
+.web{
+   width: fit-content;
+   padding: 20px;
+   border: 2px solid #0bad9b;
+   border-radius: 20px;
+   margin: 10px;
+   
+}
+.web:hover{
+   animation-name: web;
+   animation-duration: 1s;
+   animation-timing-function: ease-in;
+   animation-fill-mode: forwards;
+}
+@keyframes web {
+   from{transform: scale(0.9);}
+}
+.web p{
+   text-align: center;
+   color: #0bad9b;
+}
+.web button{
+   width: fit-content;
+   padding: 5px;
+   border-radius: 10px;
+   margin-top: 10px;
+   color: #004D40;
+   font-weight: bold;
+}
+.web h1{
+font-size: 20px;
+font-weight: lighter;
+color: #A7FFEB;
+margin-bottom: 20px;
+}
+
+
+.app{
+   width: fit-content;
+   padding: 10px;
+   border: 2px solid #0bad9b;
+   border-radius: 20px;
+   margin: 10px;
+}
+.app:hover{
+   animation-name: web;
+   animation-duration: 1s;
+   animation-timing-function: linear;
+   animation-fill-mode: forwards;
+}
+.app p{
+   text-align: center;
+   color: #0bad9b;
+}
+.app button{
+   width: fit-content;
+   padding: 5px;
+   border-radius: 10px;
+   margin-top: 10px;
+   color:#004D40;
+   font-weight: bold;
+}
+.app h1{
+font-size: 20px;
+font-weight: lighter;
+color: #A7FFEB;
+margin-bottom: 20px;
+}
+
+
+.graphics{
+   width: fit-content;
+   padding: 10px;
+   border: 2px solid #0bad9b;
+   border-radius: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.graphics:hover{
+   animation-name: web;
+   animation-duration: 1s;
+   animation-timing-function: linear;
+   animation-fill-mode: forwards;
+}
+.graphics p{
+   text-align: center;
+   color: #0bad9b;
+}
+.graphics button{
+   width: fit-content;
+   padding: 5px;
+   border-radius: 10px;
+   margin-top: 10px;
+   color: #004D40;
+   font-weight: bold;
+}
+.graphics h1{
+font-size: 20px;
+font-weight: lighter;
+color: #A7FFEB;
+margin-bottom: 20px;
+}
+}
